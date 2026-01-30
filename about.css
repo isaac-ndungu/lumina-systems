@@ -62,7 +62,9 @@
 }
 
 .values {
-    padding: 100px 150px;
+    padding: 50px 150px;
+    background-color: var(--light-bg);
+    width: 80%;
 }
 
 .values-header {
@@ -81,3 +83,43 @@
     margin: 15px auto;
     border-radius: 2px;
 } 
+
+.card-wrapper {
+    display: flex;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.values-card {
+    text-align: center;
+    padding: 20px 50px;
+    box-shadow: 2px 2px 8px;
+    border-radius: 8px;
+    background-color: var(--light-bg);
+}
+
+.values-card h3 {
+    margin: 8px;
+    font-size: 1.8em;
+}
+
+.values-card p {
+    line-height: 2;
+    font-size: 1.1em;
+}
+
+.values-card:hover {
+    transform: translateY(-12px);
+    transition: var(--transition);
+}
+
+.summary {
+    padding: 100px 150px;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.summary-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
