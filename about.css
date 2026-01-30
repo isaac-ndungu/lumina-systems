@@ -64,7 +64,7 @@
 .values {
     padding: 50px 150px;
     background-color: var(--light-bg);
-    width: 80%;
+    width: 100%;
 }
 
 .values-header {
@@ -122,4 +122,15 @@
 .summary-wrapper {
     display: flex;
     justify-content: space-around;
+}
+
+.numbers h3 {
+    color: var(--primary);
+    font-size: 3em;
+    text-align: center;
+}
+
+.numbers p {
+    font-size: 1.2em;
+    color: var(--white);
 }
